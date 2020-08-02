@@ -22,7 +22,7 @@ end
 
 
 
-def printer (batch_badge_creator, assign_rooms)
-  puts badges
-  puts room_assignments
+def printer (attenees)
+  print badges
+  print room_assignments
 end
