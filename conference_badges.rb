@@ -1,5 +1,3 @@
-require 'pry'
-
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -37,5 +35,3 @@ assign_rooms
    end
  end
 end
-
-binding.pry
