@@ -27,5 +27,8 @@ badges_and_room_assignments = []
 batch_badge_creator.each do |badge|
   badges_and_room_assignments << "#{badge}"
  end
+assign_rooms.each do |rooms|
+  badges_and_room_assignments << "#{rooms}"
+end  
  puts "#{badges_and_room_assignments}"
 end
