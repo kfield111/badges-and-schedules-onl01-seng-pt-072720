@@ -23,6 +23,6 @@ end
 
 
 def printer (attenees)
-  print badges
-  print room_assignments
+  print batch_badge_creator
+  print assign_rooms
 end
