@@ -22,7 +22,10 @@ end
 
 
 
-def printer (attenees)
-  puts "#{batch_badge_creator}"
-  puts "#{assign_rooms}"
+def printer (attendees)
+batch_badge_creator.each do |badge|
+  puts "#{badges}"
+ end
+assign_rooms.each do |rooms|
+  puts "#{room_assignments}"
 end
