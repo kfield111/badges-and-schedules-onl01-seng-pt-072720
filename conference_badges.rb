@@ -4,5 +4,4 @@ end
 
 def batch_badge_creator(attendees)
   badges = [attendees]
-  end
 end
