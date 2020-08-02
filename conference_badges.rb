@@ -26,8 +26,16 @@ end
 
 
 def printer (attendees)
-badges_and_room_assignments = []
-badges_and_room_assignments << batch_badge_creator
+batch_badge_creator
+assign_rooms
+ def badges_and_room_assignments
+   batch_badge_creator.each do |badge|
+     puts "#{badges}"
+   end
+   assign_rooms.each do |room|
+     puts "#{room}"
+   end
+ end
 end
 
 binding.pry
