@@ -29,3 +29,4 @@ batch_badge_creator.each do |badge|
 assign_rooms.each do |rooms|
   puts "#{room_assignments}"
 end
+end
