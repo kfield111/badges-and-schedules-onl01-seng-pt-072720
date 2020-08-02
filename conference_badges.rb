@@ -12,7 +12,9 @@ end
 
 
 def assign_rooms (attendees)
+  room_assignments = []
   attendees.each do |name|
-    "Hello, #{name}! You'll be assigned to room x !"
+    room_assignments << "Hello, #{name}! You'll be assigned to room x !"
   end
+  return room_assignments
 end
