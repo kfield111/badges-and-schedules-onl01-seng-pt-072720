@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -30,4 +30,4 @@ puts assign_rooms(attendees)
 end
 
 
-binding.pry
+#binding.pry
